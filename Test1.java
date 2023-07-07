@@ -1,6 +1,7 @@
 public class Test1 {
+    static int i;
     public static void main(String[] args) {
-        System.out.println("HELLO");
-        System.out.println("Child Branch");
+     for(i=0;i<10;i++)
+         System.out.println(i);
     }
 }
